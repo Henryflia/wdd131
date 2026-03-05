@@ -1,5 +1,6 @@
+
 :root{
-    --primary-theme: #336635;
+    --primary-theme: #251d47;
     --secondary-theme: #50514F;
     --third-theme: #CA895F;
     --text-color: #FCFAF9;
@@ -42,6 +43,10 @@ header{
     text-decoration: none;
     text-align: center;
     color: white;
+}
+.navigation a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--third-theme);
 }
 
 /* main */
