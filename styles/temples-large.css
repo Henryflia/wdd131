@@ -8,7 +8,7 @@
     }
     nav ul{
         display: flex;
-        justify-content: top;
+        justify-content:space-around;
     }
     nav
     .navigation a{
