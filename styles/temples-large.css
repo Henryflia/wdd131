@@ -6,9 +6,11 @@
     .navigation{
         flex-direction: row;
     }
-    nav{
-        height: 100%;
+    nav ul{
+        display: flex;
+        justify-content: top;
     }
+    nav
     .navigation a{
         display: block;
         height: 100%;
@@ -22,6 +24,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    
     main{
         display: grid;
         grid-template: auto auto auto/ auto auto auto;
