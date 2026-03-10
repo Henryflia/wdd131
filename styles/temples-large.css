@@ -1,0 +1,33 @@
+@media screen and (min-width: 37.5em) {
+    #menu{
+        display: none;
+    }
+
+    .navigation{
+        flex-direction: row;
+    }
+    nav{
+        height: 100%;
+    }
+    .navigation a{
+        display: block;
+        height: 100%;
+    }
+
+    #course-title{
+        text-align: left;
+        margin: 10px;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main{
+        display: grid;
+        grid-template: auto auto auto/ auto auto auto;
+    }
+
+    main h1{
+        grid-column: 1/4;
+    }
+}
