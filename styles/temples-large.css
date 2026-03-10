@@ -10,6 +10,9 @@
         display: flex;
         justify-content:space-around;
     }
+    nav ul li{
+        flex: 1 1 100%;
+    }
     nav
     .navigation a{
         display: block;
