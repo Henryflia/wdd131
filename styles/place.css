@@ -1,0 +1,113 @@
+:root {
+    --primary-theme: #251d47;
+    --secondary-theme: #50514F;
+    --third-theme: #CA895F;
+    --text-color: #FCFAF9;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+
+
+/* header */
+header span {
+    display: block;
+    color: var(--text-color);
+    font-size: 20px;
+    padding: 1rem;
+    
+}
+
+header {
+    background-color: var(--primary-theme);
+    text-align: center;
+    color: var(--text-color);
+}
+
+
+
+/* main */
+main{
+    text-align: center;
+}
+
+
+/* Data box */
+.datagrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#data{
+    grid-column: 1/3;
+}
+
+
+p{
+    margin: 10px 0px;
+}
+.dataname{
+    grid-column: 1;
+    text-align: right;
+    margin-right: 7px;
+}
+.datainfo {
+    grid-column: 2;
+    text-align: left;
+    margin-left: 7px;
+}
+
+/* Weather box */
+
+.weathergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#weather {
+    grid-column: 1/3;
+}
+
+
+p {
+    margin: 10px 0px;
+}
+
+.wname {
+    grid-column: 1;
+    text-align: right;
+    margin-right: 7px;
+}
+
+.winfo {
+    grid-column: 2;
+    text-align: left;
+    margin-left: 7px;
+}
+
+
+
+
+
+.heroimg{
+    border-top: 15px solid var(--secondary-theme);
+    border-bottom: 5px solid var(--third-theme)
+}
+
+/* footer */
+footer {
+
+    background-color: var(--primary-theme);
+    font-size: 15px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+footer p {
+    margin: 0px;
+    padding: .30rem;
+}
