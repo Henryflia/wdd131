@@ -1,6 +1,6 @@
 :root {
     --primary-theme: #251d47;
-    --secondary-theme: #50514F;
+    --secondary-theme: #d2d3d1;
     --third-theme: #CA895F;
     --text-color: #FCFAF9;
 }
@@ -89,7 +89,7 @@ main {
 }
 .temples section {
     border: 1px solid var(--primary-theme);
-    background-color: rgb(194, 194, 194) ;
+    background-color: var(--secondary-theme) ;
     margin: 10px;
     }
 p{
