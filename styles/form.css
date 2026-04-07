@@ -1,0 +1,88 @@
+:root {
+    --primary-theme: #251d47;
+    --secondary-theme: #cecece;
+    --third-theme: #CA895F;
+    --text-color: #FCFAF9;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* header */
+header span {
+    display: block;
+    color: var(--text-color);
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+header {
+    background-color: var(--primary-theme);
+    text-align: center;
+    color: var(--text-color);
+}
+
+
+
+
+
+/* main */
+main {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+}
+
+
+/* Form Style */
+.wf1 fieldset{
+    padding: .75rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid var(--primary-theme);
+}
+
+.wf1 label{
+    display: block;
+    text-align: left;
+    padding-top: .5rem;
+    font-size: .9rem;
+}
+
+.wf1 div {
+    display: block;
+    text-align: left;
+    padding-top: .5rem;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="textarea"],
+.wf1 input[type="date"],
+.wf1 select{
+    background-color: var(--secondary-theme);
+    display: block;
+    border: solid 1px var(--text-color);
+    border-radius: 2px;
+    padding: .75rem;
+    color: var(--primary-theme);
+    width: 100%;
+    max-width: 300px;
+    appearance: none;
+}
+/* footer */
+footer {
+
+    background-color: var(--primary-theme);
+    font-size: 15px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+footer p {
+    margin: 0px;
+    padding: .30rem;
+}

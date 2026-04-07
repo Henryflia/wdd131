@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Henry Familia</title>
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals - Henry Tomas Familia, Html, Javascript, Css, Profile of the autor, Temples Picture">
+    <meta name="author" content="Henry Tomas Familia">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <span id="course-title">Product Review</span>
+    </header>
+    <main>
+
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                <label for="">Product*
+                <select name="subject" id="select" required>
+                    <option value="" disabled selected>Select a Product &#9662;</option>
+                    <!-- <option value="software">Software Developer</option>
+                    <option value="creative">Creative</option>
+                    <option value="info">Info</option>
+                    <option value="data">Data Professional</option>
+                    <option value="construction-">Construction</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="business">Business Professional</option>
+                    <option value="security">Cyber Security</option> -->
+                    
+                </select>
+                </label>
+
+                <div>Overall Rating</div>
+                <label><input type="radio" id="s1" name="overall" value="1star" required> &star;</label>
+                <label><input type="radio" id="s2" name="overall" value="2star" required> &star;&star;</label>
+                <label><input type="radio" id="s3" name="overall" value="3star" required> &star;&star;&star;</label>
+                <label><input type="radio" id="s4" name="overall" value="3star" required> &star;&star;&star;&star;</label>
+                <label><input type="radio" id="s5" name="overall" value="3star" required> &star;&star;&star;&star;&star;</label>
+
+                <label>Date of Installation  <input type="date" id="datei" name="installedDate"></label>
+
+                <div>Which features did you find useful in the product?</div>
+                <div>(Check all thtat apply)</div>
+                <label><input type="checkbox" id="dura" name="durability" value="yes"> Durability</label>
+                <label><input type="checkbox" id="use" name="use" value="yes"> Ease of Use</label>
+                <label><input type="checkbox" id="perfo" name="performance" value="yes"> Performance</label>
+                <label><input type="checkbox" id="design" name="design" value="yes"> Design</label>
+
+                <label>Writen Review <span class="optional">(optional)</span><input type="textarea" id="review" name="writereview"></label>
+                <label>  Your Name <span class="optional">(optional)</span><input type="text" id="name" name="name" ></label>
+                <input type="submit" value="Submit Your Review">
+        
+            </fieldset>
+        
+        
+        
+        
+        
+        </form>
+
+
+
+
+
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> - Henry Tomas Familia Arroyo - Dominican Republic</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
