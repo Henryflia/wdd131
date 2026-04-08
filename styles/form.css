@@ -15,7 +15,8 @@ header span {
     display: block;
     color: var(--text-color);
     font-size: 20px;
-    padding-top: 1rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 header {
@@ -62,7 +63,8 @@ main {
 .wf1 input[type="text"],
 .wf1 input[type="textarea"],
 .wf1 input[type="date"],
-.wf1 select{
+.wf1 select,
+.wf1 textarea{
     background-color: var(--secondary-theme);
     display: block;
     border: solid 1px var(--text-color);

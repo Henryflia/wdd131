@@ -1,5 +1,11 @@
 @media screen and (min-width: 37.5em) {
-
+    .wf1 input[type="text"],
+        .wf1 input[type="textarea"],
+        .wf1 input[type="date"],
+        .wf1 select,
+        .wf1 textarea {
+            max-width: 500px;
+        }
 
 
 
