@@ -13,7 +13,7 @@ body {
 
 
 /* header */
-header span {
+header h1 {
     display: block;
     color: var(--text-color);
     font-size: 20px;
@@ -24,6 +24,7 @@ header {
     background-color: var(--primary-theme);
     text-align: center;
     color: var(--text-color);
+    
 }
 
 /* main */
@@ -35,10 +36,11 @@ main {
     border: 1px solid var(--text-color2);
 }
 
-div{
+h2{
     background-color: var(--secondary-theme);
     padding: 1rem;
     border: 1px solid var(--text-color2);
+    margin: 0;
 }
 
 section{
