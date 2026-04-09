@@ -225,6 +225,10 @@ main {
     border-left: solid 8px green;
 }
 
+.formtitle{
+    display: block;
+    text-align: left;
+}
 .wf1 input[type="submit"] {
     border: none;
     background-image: linear-gradient(var(--primary-theme), var(--secondary-theme));

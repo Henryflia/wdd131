@@ -39,7 +39,7 @@
                 <label for="fname">First Name*: <input type="text" id="fname" name="fname" required></label>
                 <label for="lname">Last Name*:<input type="text" id="lname" name="lname" required></label>
                 <label for="email">Email*:<input type="email" id="email" placeholder="someone@gmail.com" name="email" required></label>
-                <label for="phone">Phone*: <input type="phone" id="phone" placeholder="1235556789" name="phone" required></label>
+                <label for="number">Phone*: <input type="phone" id="phone" placeholder="1235556789" name="phone" required></label>
             </fieldset>
 
             <fieldset>
@@ -55,7 +55,7 @@
                 <label for="p2"><input type="radio" id="p2" name="plan" value="vegetables">Vegetables Plan</label>
                 <label for="p3"><input type="radio" id="p3" name="plan" value="mixed">Mix Fruits/Vegetables Plan</label>
 
-                <legend>Extras (opctional)</legend>
+                <div class="formtitle">Extras (opctional)</div>
                 <label for="organic"><input type="checkbox" id="organic" name="organics" value="organic">Organic products only</label>
                 <label for="extra"><input type="checkbox" id="extra" name="extra" value="extra">Extra fruits/vegetables (+$10)</label>
                 <label for="seasonal"><input type="checkbox" id="seasonal" name="seasonal" value="seasonal">Seasonal Box</label>
@@ -68,10 +68,9 @@
             <fieldset>
                 <legend>Delivery Schedule</legend>
                 <label for="date">Prefered Delivery Date<input type="date" id="date" name="delivery" required></label>
-                <label for="time">Prefered Time
-                    <input type="checkbox" name="" id=""> Morning
-                    <input type="checkbox" name="" id=""> Aftenoon
-                </label>
+                <div class="formtitle">Prefered Time</div>
+                <label for="time"><input type="checkbox" name="morning" id="morning"> Morning</label>
+                <label for="afternoon"><input type="checkbox" name="afternoon" id="afternoon"> Aftenoon</label>
             </fieldset>
             <input type="submit" value="Start My Plan">
 
