@@ -226,10 +226,11 @@ if (vege) {
   });
 }
 function renderTemples(food){
-    const f = document.querySelector(".food");
+  const f = document.querySelector(".food");
+  if (!f) return;
     let section = ""
     for (const info of food) {
-        section += `
+      section += `
         <section class="foodcart">
         <h1>${info.name}</h1>
         <figure>
@@ -242,7 +243,7 @@ function renderTemples(food){
         </section>
         `
     }
-    f.innerHTML = section
+    f.innerHTML = section;
 }
 
 const form = document.querySelector(".wf1")
