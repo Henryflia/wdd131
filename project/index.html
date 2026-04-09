@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Henry Familia</title>
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals - Henry Tomas Familia, Html, Javascript, Css, Profile of the autor, Temples Picture">
+    <meta name="author" content="Henry Tomas Familia">
+    <link rel="stylesheet" href="styles/delifruit.css">
+    <link rel="stylesheet" href="styles/delifruit-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/delifruit.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="course-title">Site Plan</h1>
+        <button type="button" id="menu" aria-label="Open menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="/project/index.html" title="Home">Home</a></li>
+                <li><a href="/project/fruits.html" title="Food">Food</a></li>
+                <li><a href="/project/subcribe.html" title="Subscribes">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <picture id="hero">
+            <source srcset="images/hero-large.jpg" media="(min-width: 1000px)">
+            <source srcset="images/hero-medium.webp" media="(min-width: 550px)">
+            <img class="heroimg" src="images/hero1.jpg" alt="Photo by Viktoria  Slowikowska: https://www.pexels.com/photo/sliced-fruits-on-wooden-surface-5677308/" loading="lazy">
+        </picture>
+
+        <section>
+            <h2>Plans</h2>
+
+            <div class="divp">
+                <img src="images/fruits.jpg" alt="Photo by Wellington Fernandes: https://www.pexels.com/photo/vibrant-fruit-display-at-a-market-stall-30505135/" loading="lazy">
+                <section class="plans">
+                    <h2>Fruits Plan</h2>
+                    <p>Example: Apple, Banana, Mango, Orange, Pineapple, Grapes, Strawberry, Watermelon, Papaya, Avocado
+                    </p>
+                    <p>✔ Fresh
+                    ✔ Organic</p>
+                    <p>$15/week</p>
+                    <a class="links" href="/project/subcribe.html" >Subscribe to Fruits Plan</a>
+            </section>
+            </div>
+            <div class="divp">
+                <img src="images/vegetables.jpg" alt="Photo by Viktoria  Slowikowska: https://www.pexels.com/photo/green-vegetable-and-fruits-on-a-wooden-table-5677797/" loading="lazy">
+                <section class="plans">
+                    <h2>Vegetables Plan</h2>
+                    <p>Example: Carrot, Broccoli, Tomato, Lettuce, Bell Pepper, Cucumber, Spinach, Onion, Garlic, Zucchini</p>
+                    <p>✔ Fresh
+                        ✔ Organic</p>
+                    <p>$15/week</p>
+                    <a class="links" href="/project/subcribe.html">Subscribe to Vegetables Plan</a>
+                </section>
+            </div>
+            
+            <div class="divp">
+                <img src="images/mixed.jpg" alt="Photo by Pixabay: https://www.pexels.com/photo/variety-of-fruits-and-vegetables-264537/" loading="lazy">
+                <section class="plans">
+
+                
+                <h2>Mixed Plan</h2>
+                <p>Example: Apple, Banana, Carrot, Broccoli, Tomato, Lettuce, Mango, Cucumber, Spinach, Orange</p>
+                <p>✔ Fresh
+                    ✔ Organic</p>
+                <p>$15/week</p>
+                <a class="links" href="/project/subcribe.html">Subscribe to Mixed Plan</a>
+                </section>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> - Henry Tomas Familia Arroyo - Dominican Republic</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

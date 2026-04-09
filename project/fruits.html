@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Henry Familia</title>
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals - Henry Tomas Familia, Html, Javascript, Css, Profile of the autor, Temples Picture">
+    <meta name="author" content="Henry Tomas Familia">
+    <link rel="stylesheet" href="styles/delifruit.css">
+    <link rel="stylesheet" href="styles/delifruit-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/delifruit.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="course-title">Site Plan</h1>
+        <button type="button" id="menu" aria-label="Open menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="/project/index.html" title="Home">Home</a></li>
+                <li><a href="/project/fruits.html" title="Food">Food</a></li>
+                <li><a href="/project/subcribe.html" title="Subscribes">Subscribe</a></li>
+            </ul>
+        </nav>
+        <!-- <nav>
+            <ul class="navigation">
+                <li><a href="/project/index.html" title="Home">Home</a></li>
+                <li><button id="fruits" title="Fruits">Fruits</button></li>
+                <li><button id="vege" title="Vegetables">Vegetables</button></li>
+                <li><a href="/project/subcribe.html" title="Subscribes">Subscribe</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <main>
+        <h1 class="course-title">Food Available</h1>
+        <ul class="linkfruit">
+            <li><a id="fruits" href="/project/fruits.html" title="Fruits">Fruits</a></li>
+            <li><a id="vege" href="/project/fruits.html" title="Vegetables">Vegetables</a></li>
+        </ul>
+
+        <div class="food"></div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> - Henry Tomas Familia Arroyo - Dominican Republic</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
